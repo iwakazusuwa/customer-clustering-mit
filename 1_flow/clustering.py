@@ -1,19 +1,4 @@
-# ---
-# jupyter:
-#   jupytext:
-#     formats: py:percent
-#     text_representation:
-#       extension: .py
-#       format_name: percent
-#       format_version: '1.3'
-#       jupytext_version: 1.17.1
-#   kernelspec:
-#     display_name: Python 3 (ipykernel)
-#     language: python
-#     name: python3
-# ---
 
-# %%
 import pandas as pd
 import numpy as np
 import os
@@ -27,8 +12,8 @@ INPUT_FOLDER = "2_data"
 INPUT_FILE = 'sample.csv' 
 OUTPUT_FOLDER = "3_output"
 SAVE_NAME ='clustering.png'
-threshold_distance = 1500  # y軸閾値
-criter = 8                 # クラスタ数
+threshold_distance = 800  # y軸閾値
+criter = 6                 # クラスタ数
 ID = "顧客ID"
 
 # パス設定
